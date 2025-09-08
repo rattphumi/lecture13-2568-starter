@@ -4,6 +4,7 @@ import { RouterProvider } from "react-router-dom";
 import { router } from "./routes.tsx";
 import "@mantine/core/styles.css";
 import { MantineProvider, createTheme, virtualColor } from "@mantine/core";
+import '@mantine/dates/styles.css';
 
 const theme = createTheme({
   fontFamily: "Kanit,sans-serif",
